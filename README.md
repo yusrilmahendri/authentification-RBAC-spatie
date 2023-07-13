@@ -65,7 +65,7 @@ Response :
 }
 ```
 
-#ALL ENDPOINT
+## ALL ENDPOINT
 ```
   POST            api/login ..................................................................................................................... Api\AuthenticatesController@login
   GET|HEAD        api/orders ................................................................................................................. orders.index › OrderController@index
