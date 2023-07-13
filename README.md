@@ -1,6 +1,6 @@
 # API Spec
 
-## Authentication
+## Use Authentication concep RBAC on laravel sanctum with spatie permission
 
 All API must use this authentication
 
