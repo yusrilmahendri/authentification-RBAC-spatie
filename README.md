@@ -9,8 +9,17 @@ Request :
     - accept: application/json
     - Barer : 'Bearer '.$accessToken
 
+## CREATE ROLE 
+- Endpoint : `/api/roles`
+- Header :
+    - Accept: application/json
+    - body
+       {
+            'name': pembeli
+            'permission': web
+       }
+      
 ## LOGIN
-
 Request :
 - Method : post
 - Endpoint : `/api/login`
@@ -42,7 +51,6 @@ Request :
 
 ```json 
 {
-    "kode_pengirim": "PJ001"
     "name" : "string",
     "email" : "string, unique",
     "password" : "string",
